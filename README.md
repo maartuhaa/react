@@ -33,4 +33,4 @@ The idea is simple: instead of searching for recipes and then buying everything,
 Clone the repo:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/lagemat.git
+git clone https://github.com/maartuhaa/lagemat.git
