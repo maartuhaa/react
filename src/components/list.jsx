@@ -4,7 +4,11 @@ function List({ recipes, onSelect }) {
   return (
     <div className="recipes">
       {recipes.map((recipe) => (
-        <Card key={recipe.id} recipe={recipe} onSelect={onSelect} />
+        <Card
+          key={recipe.id}
+          recipe={recipe}
+          onSelect={onSelect}
+        />
       ))}
     </div>
   );

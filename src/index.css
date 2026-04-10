@@ -153,10 +153,10 @@ button:hover {
 .step {
   background: white;
   padding: 25px;
-  border-radius: 14px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   text-align: center;
-  transition: 0.2s;
+  transition: 0.25s;
 }
 
 .step:hover {
@@ -164,8 +164,26 @@ button:hover {
 }
 
 .step-icon {
-  font-size: 36px;
-  margin-bottom: 10px;
+    width: 60px;
+  height: 60px;
+
+  margin: 0 auto 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #e6efe4;
+  border-radius: 50%;
+
+  font-size: 26px;
+  color: #4f6f52;
+}
+
+.step:hover .step-icon {
+  background: #a8c3a1;
+  color: white;
+  transform: scale(1.1);
 }
 
 .step h3 {
